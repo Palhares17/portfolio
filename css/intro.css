@@ -1,0 +1,59 @@
+/* INTRODUÇÃO */
+
+.intro-bg {
+    background-color: var(--white);
+    padding: 200px 0;
+}
+
+.intro h1 {
+    font-weight: bold;
+    font-size: 64px;
+    font-family: var(--Title);
+}
+
+.intro .hi {
+    font-size: 24px;
+}
+
+.intro span {
+    color: var(--color-button);
+}
+
+.intro h2 {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    max-width: 70ch;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.intro a {
+    display: inline-block;
+    padding: 15px 35px;
+    background-color: #FF6464;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.intro a:hover {
+    background-color: #f55454;
+}
+
+@media (max-width: 1000px) {
+    .intro h1 {
+        font-size: 48px;
+    }
+    .intro .hi {
+        font-size: 16px;
+    }
+    .intro p {
+        font-size: 12px;
+    }
+    .intro a {
+        padding: 10px 30px;
+    }
+}
