@@ -1,0 +1,77 @@
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 100vh;
+    width: 800px;
+}
+
+.about {
+    background: #fff;
+    padding: 0 150px;
+}
+
+.about h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 50vh;
+    position: relative;
+}
+
+.about h1::before {
+    content: "about me";
+    position: absolute;
+    text-transform: uppercase;
+    color: #8585851e;
+    font-size: 164px;
+    font-weight: 700;
+    letter-spacing: -1rem;
+}
+
+
+.about h2 {
+    margin-bottom: 40px;
+}
+
+.about-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.about-info p {
+    flex: 0 0 70%;
+    max-width: 60%;
+}
+
+.about-info .list {
+    flex: 0 0 30%;
+    max-width: 40%;
+}
+
+.list li {
+    font-weight: 700;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.list li:nth-child(2) {
+    border-top: solid 1px #bebebe;
+    border-bottom: solid 1px #bebebe;
+}
+
+.about .btn-cv { 
+    margin-top: 0.5rem;
+    display: inline-block;
+    padding: 0.8rem 1rem;
+    background: var(--color-1);
+    border-radius: 4px;
+    transition: all 0.1s;
+    color: #fff;
+}
+
+.about .btn-cv:hover {
+    background: #ff4e4e;
+}

@@ -1,0 +1,62 @@
+a {
+	text-decoration: none;
+	font-family: var(--paragraph);
+	color: inherit;
+}
+
+span {
+	color: var(--color-1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li {
+	font-family: var(--Title);
+	color: #fff;
+}
+
+p {
+	font-family: var(--paragraph);
+	color: #fff;
+}
+
+li {
+	list-style: none;
+	color: #fff;
+}
+
+.title-1 {
+	font-size: 4rem;
+	font-weight: 700;
+}
+
+.title-2 {
+	font-size: 1.7rem;
+	font-weight: 400;
+}
+
+.title-3 {
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+.para {
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+.list-p {
+	font-weight: 300;
+}
+
+.color-p-dark {
+	color: var(--color-p-dark);
+}
+
+.color-p {
+	color: var(--color-p);
+}

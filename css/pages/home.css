@@ -1,0 +1,40 @@
+.home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("../../image/background/background.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home h2 {
+    margin-top: -5rem;
+}
+
+.home p {
+    margin-bottom: 0.5rem;
+}
+
+.home .btn-cv { 
+    margin-top: 0.5rem;
+    display: block;
+    padding: 0.8rem 1rem;
+    background: var(--color-1);
+    border-radius: 4px;
+    transition: all 0.1s;
+    color: #fff;
+}
+
+.home .btn-cv:hover {
+    background: #ff4e4e;
+}
+
+.icon-content {
+    display: flex;
+    gap: 1rem;
+}
+
+.icon-content .icon {
+    color: #fff;
+}
