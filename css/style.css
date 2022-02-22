@@ -5,9 +5,17 @@
 @import "./pages/home.css";
 @import "./pages/about.css";
 @import "./pages/whatIdo.css";
+@import "./pages/portfolio.css";
+@import "./pages/contact.css";
 
 /* HEADER */
 @import "./pages/header.css";
 
 /* FONT */
 @import "./font/font.css";
+
+/* COLOR */
+@import "./color/color.css";
+
+/* ANIMATION */
+@import "./action/action.css";

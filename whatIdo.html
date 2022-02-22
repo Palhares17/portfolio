@@ -13,6 +13,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
 
+    // icon
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+
     <link rel="stylesheet" href="./css/style.css">
     <title>Portfolio - About Me</title>
 </head>
@@ -26,19 +29,46 @@
                     <li class="active"><a href="./home.html">home</a></li>
                     <li><a href="./about.html">about me</a></li>
                     <li><a href="./whatIdo.html">what I do</a></li>
-                    <li><a href="#portfolio">portfolio</a></li>
-                    <li><a href="#contact">contact</a></li>
+                    <li><a href="./portfolio.html">portfolio</a></li>
+                    <li><a href="./contact.html">contact</a></li>
                 </ul>
             </nav>
         </div>
     </div>
 
-    <div class="about-content">
-        <section class="about section">
-            
+    <div class="whatido-content">
+        <section class="whatido section">
+            <h1 class="title-1 color-p fadeInRight" data-anime="100">What I do</h1>
+            <div class="what-items">
+                <div class="web fadeInRight" data-anime="200">
+                    <h3 class="color-decoration title-3 ">Front-end developer</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, omnis.</p>
+                </div>
+                <div class="design fadeInRight" data-anime="400">
+                    <h3 class="color-decoration title-3">UI/UX Designer</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, omnis.</p>
+                </div>
+            </div>
+
+            <div class="techs">
+                <h2 class="color-decoration title-2 fadeInRight" data-anime="600">My Technologies.</h2>
+                <ul class="mytechs fadeInRight" data-anime="800">
+                    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" /></li>
+                    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" /></li>
+                    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" /></li>
+                    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+                    </li>
+                    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    </li>
+                    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
+                    </li>
+                </ul>
+            </div>
         </section>
     </div>
-    </div>
+
+    <script src="js/plugin/simple-anime.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

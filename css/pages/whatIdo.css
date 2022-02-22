@@ -1,0 +1,90 @@
+.whatido-content {
+    display: flex;
+    max-height: 100vh;
+    width: 800px;
+    overflow-y: auto;
+    margin-bottom: 600px
+}
+
+.whatido {
+    background: var(--color-p-dark)
+}
+
+.whatido h1 {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    position: relative;
+}
+
+.whatido h1::before {
+    content: "My skills";
+    position: absolute;
+    text-transform: uppercase;
+    color: #8585851e;
+    font-size: 164px;
+    font-weight: 700;
+    letter-spacing: -1rem;
+
+}
+
+.whatido h1::after {
+    content: "";
+    position: absolute;
+    background: var(--color-1);
+    border-radius: 4px;
+    height: 3px;
+    width: 100px;
+    z-index: 3;
+    top: 10rem;
+}
+
+
+.what-items {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    margin-bottom: 5rem;
+}
+
+.what-items .web,
+.what-items .design {
+    position: relative;
+    width: 50ch;
+}
+
+.what-items .web::before,
+.what-items .design::before {
+    content: "";
+    position: absolute;
+    background: var(--color-1);
+    height: 20px;
+    width: 5px;
+    left: -15px;
+    top: 6px;
+    border-radius: 4px;
+}
+
+.techs h2 {
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.mytechs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+}
+
+@media (max-width: 1600px) {
+    .whatido h1 {
+        margin-top: 1rem;
+    }
+}

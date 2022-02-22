@@ -1,0 +1,11 @@
+.color-p-dark {
+	color: var(--color-p-dark);
+}
+
+.color-p {
+	color: var(--color-p);
+}
+
+.color-decoration {
+	color: var(--color-1);
+}

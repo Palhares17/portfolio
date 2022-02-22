@@ -19,7 +19,8 @@ li {
 	color: #fff;
 }
 
-p {
+p,
+label {
 	font-family: var(--paragraph);
 	color: #fff;
 }
@@ -51,12 +52,4 @@ li {
 
 .list-p {
 	font-weight: 300;
-}
-
-.color-p-dark {
-	color: var(--color-p-dark);
-}
-
-.color-p {
-	color: var(--color-p);
 }

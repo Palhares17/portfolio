@@ -22,9 +22,31 @@ body {
 	--paragraph: "JetBrains Mono", monospace;
 }
 
+a {
+	text-decoration: none;
+}
+.btn { 
+    margin-top: 0.5rem;
+    display: inline-block;
+    padding: 0.8rem 1rem;
+    background: var(--color-1);
+    border-radius: 4px;
+    transition: all 0.1s;
+    color: #fff;
+}
+
+.btn:hover {
+    background: #ff4e4e;
+}
+
 .icon img {
 	width: 24px;
 	height: 42px;
+}
+
+.mytechs li {
+	width: 64px;
+	height: 64px;
 }
 
 .active {
@@ -32,7 +54,6 @@ body {
 }
 
 .section {
-    background: #666;
     min-height: 100vh;
     position: fixed;
     left: 300px;
@@ -50,4 +71,25 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+}
+
+.gallery img {
+	width: 400px;
+	border-radius: 4px;
+}
+
+@media (max-width: 1600px) {
+    .gallery img {
+        width: 300px;
+    }
+}
+
+
+@media (max-width: 1000px) {
+	.container {
+		max-width: 900px;
+	}
+	.section {
+		left: 200px;
+	}
 }
