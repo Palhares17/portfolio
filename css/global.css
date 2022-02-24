@@ -12,7 +12,7 @@ body {
 
 :root {
 	--color-bg: #121416;
-	--color-bg-light: #e9ecef;
+	--color-bg-light: #dddddd;
 
 	--color-1: #ff6464;
 	--color-p: #F7F7FF;
@@ -24,7 +24,9 @@ body {
 
 a {
 	text-decoration: none;
+	margin: 0;
 }
+
 .btn { 
     margin-top: 0.5rem;
     display: inline-block;
@@ -84,12 +86,9 @@ a {
     }
 }
 
-
 @media (max-width: 1000px) {
-	.container {
-		max-width: 900px;
-	}
 	.section {
-		left: 200px;
+		position: unset;
+		display: block;
 	}
 }

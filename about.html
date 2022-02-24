@@ -20,10 +20,15 @@
 <body>
     <div class="main-container">
         <div class="aside">
-            <h2><span>Math</span>eus.</h2>
-            <nav>
-                <ul>
-                    <li class="active"><a href="./">home</a></li>
+            <h2><span class="color-span">Math</span>eus.</h2>
+            
+            <nav id="nav">
+                <button id="btn-mobile">
+                    <span id="hamburguer"></span>
+                </button>
+
+                <ul id="menu">
+                    <li><a href="./index.html">home</a></li>
                     <li><a href="./about.html">about me</a></li>
                     <li><a href="./whatIdo.html">what I do</a></li>
                     <li><a href="./portfolio.html">portfolio</a></li>
@@ -35,9 +40,9 @@
 
     <div class="about-content">
         <section class="about section">
-            <h1 class="title-1 color-p-dark fadeInRight" data-anime="200">Know Me more</h1>
+            <h1 class="title-1 color-p-dark fadeInRight" data-anime="200">Know Me More</h1>
             <h2 class="title-2 color-p-dark fadeInRight" data-anime="200">
-                I'm <span>Matheus Palhares</span>, a Front-End Developer
+                I'm <span class="color-span">Matheus Palhares</span>, a Front-End Developer
             </h2>
             <div class="about-info">
                 <p class="para color-p-dark fadeInRight" data-anime="400">
@@ -46,18 +51,22 @@
                 </p>
                 <div class="list fadeInRight" data-anime="800">
                     <ul>
-                        <li class="para color-p-dark">Name: <span class="list-p">Matheus Silva Palhares</span></li>
-                        <li class="para color-p-dark">Gmail: <span class="list-p">mspalhares01@gmail.com</span></li>
-                        <li class="para color-p-dark">telephone: <span class="list-p">+55 (31) 98365-6391</span></li>
-                        <li class="para color-p-dark">Age: <span class="list-p">20</span></li>
-                        <a class="btn" href="#">Download CV</a>
+                        <div class="list-mobile-1">
+                            <li class="para color-p-dark">Name: <span class="list-p">Matheus Silva Palhares</span></li>
+                            <li class="para color-p-dark">Gmail: <span class="list-p">mspalhares01@gmail.com</span></li>
+                        </div>
+                        <div class="list-mobile-2">
+                            <li class="para color-p-dark">telephone: <span class="list-p">+55 (31) 98365-6391</span></li>
+                            <li class="para color-p-dark">Age: <span class="list-p">20</span></li>
+                        </div>
                     </ul>
+                    <a class="btn" href="#">Download CV</a>
                 </div>
             </div>
 
         </section>
     </div>
-    
+
     <script src="js/plugin/simple-anime.js"></script>
     <script src="js/script.js"></script>
 </body>

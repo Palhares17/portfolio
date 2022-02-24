@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
 
-    // icon
+    <!-- icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
 
     <link rel="stylesheet" href="./css/style.css">
@@ -23,10 +23,15 @@
 <body>
     <div class="main-container">
         <div class="aside">
-            <h2><span>Math</span>eus.</h2>
-            <nav>
-                <ul>
-                    <li class="active"><a href="./">home</a></li>
+            <h2><span class="color-span">Math</span>eus.</h2>
+            
+            <nav id="nav">
+                <button id="btn-mobile">
+                    <span id="hamburguer"></span>
+                </button>
+
+                <ul id="menu">
+                    <li><a href="./index.html">home</a></li>
                     <li><a href="./about.html">about me</a></li>
                     <li><a href="./whatIdo.html">what I do</a></li>
                     <li><a href="./portfolio.html">portfolio</a></li>
@@ -35,11 +40,10 @@
             </nav>
         </div>
     </div>
-
     <div class="portfolio-content">
         <section class="portfolio section">
             <h1 class="title-1 color-p-dark fadeInRight" data-anime="100">My Works</h1>
-        
+
             <div class="gallery fadeInRight" data-anime="200">
                 <a href="https://palhares17.github.io/Projeto-Origamid/" target="_blank"><img src="./image/gallary/bikcraft.png" alt="bikcraft"></a>
                 <a href="https://arquivistasjr.com.br/" target="_blank"><img src="./image/gallary/arquivistas.png" alt="arquivistas"></a>
@@ -47,13 +51,13 @@
             </div>
 
             <p class="color-p-dark fadeInRight" data-anime="400">
-                Besides these, I have more projects in my <span>GitHub</span>.
+                Besides these, I have more projects in my <span class="color-span">GitHub</span>.
             </p>
 
             <div class="button fadeInRight" data-anime="600">
                 <a class="btn" href="https://github.com/Palhares17">My GitHub</a>
             </div>
-        
+
         </section>
     </div>
 

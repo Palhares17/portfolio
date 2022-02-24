@@ -9,3 +9,7 @@
 .color-decoration {
 	color: var(--color-1);
 }
+
+.color-span {
+	color: var(--color-1);
+}
